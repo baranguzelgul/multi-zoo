@@ -1,0 +1,8 @@
+Model: vit
+Eğitim süresi: 2141.67 saniye
+
+Doğrulama Sonuçları:
+Doğruluk (Accuracy): 0.9507
+Kesinlik (Precision): 0.9550
+Duyarlılık (Recall): 0.9507
+F1-Skor: 0.9508
