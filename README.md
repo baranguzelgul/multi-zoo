@@ -66,6 +66,25 @@ pip install tqdm
 pip install tkinter  # Çoğu Python kurulumunda varsayılan olarak gelir
 ```
 
+### 📁 Veri ve Model Dosyaları (Google Drive)
+
+Proje boyutu nedeniyle model, train ve test klasörleri Google Drive üzerinde paylaşılmıştır:
+
+- **[Tüm dosyalar için Google Drive klasörü (model, train, test)](https://drive.google.com/drive/folders/1MoCtNsSqyWKr6isdMTG8mq1wz0f1RIIt?usp=sharing)**
+
+Klasör içerisinde:
+- `model/model.pt` : **Vision Transformer (ViT) tabanlı, 90 sınıf için eğitilmiş model dosyası**. Bu model, %95.07 doğruluk oranına ulaşmıştır ve doğrudan GUI veya test scriptlerinde kullanılabilir.
+- `train/` : Eğitim veri seti (90 hayvan sınıfı, klasör yapısında)
+- `test/`  : Test veri seti (sınıflandırma doğrulama için)
+
+**model.pt dosyası hakkında:**
+- Model mimarisi: `vit_base_patch16_224`
+- Eğitim veri seti: 90 farklı hayvan türü
+- En iyi doğruluk: **%95.07**
+- Kullanım: GUI arayüzünde veya test scriptlerinde doğrudan yüklenebilir.
+
+İlgili dosyaları indirip, kendi proje dizininize aynı yapıda ekleyebilirsiniz.
+
 ### Veri Seti Hazırlığı
 
 Eğitim verilerinizi aşağıdaki yapıda organize edin:
